@@ -1,0 +1,41 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  background-color: #4f77e4;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  color: white;
+  background-color: #4f77e4;
+  z-index: 1;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-list-item {
+  color: white;
+}
+
+/* Imagen en escala de grises por defecto */
+.grayscale-image {
+  display: block;
+  margin: auto;
+  width: 50%;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+/* Cambiar a color en hover */
+.grayscale-image:hover {
+  filter: grayscale(0%);
+}
